@@ -1,7 +1,16 @@
-import Link from 'next/link'
-import React from 'react'
+"use client";
+
+import Link from 'next/link';
+import React from 'react';
+import srmLogo from "../assets/srm-trc-logo.png";
+import Image from 'next/image';
+import { cn } from '@/lib/utils';
+import { usePathname } from 'next/navigation';
 
 export default function Header() {
+
+    const currentPath = usePathname();
+
     const navElements = [
         {
             name: "Home",
@@ -31,19 +40,19 @@ export default function Header() {
             name: "Reach Us",
             link: "/reach-us",
         },
-    ]
+    ];
+
     return (
-        <div className='flex justify-between w-full'>
-            <div>logo</div>
-            <div className='flex gap-8'>
-                {navElements.map((navElement, index) => {
-                    return (
-                        <Link href={navElement.link} key={index} className='px-4 py-2 hover:bg-black/80 transition-all duration-300 text-lg'>
-                            {navElement.name}
-                        </Link>
-                    )
-                })}
+        <div className='flex justify-between items-center w-full border-y md:px-6'>
+            <div className='h-[5rem]'><Image src={srmLogo} alt='logo' className='w-full h-full' /></div>
+            <div className='hidden md:flex gap-4 py-4'>
+                {navElements.map((navElement, index) => (
+                    <Link href={navElement.link} key={index} className={cn('group px-4 py-3 font-semibold relative', navElement.link === currentPath && 'bg-yellow')}>
+                        {navElement.name}
+                        <span className="group-hover:absolute left-0 bottom-0 w-0 h-0.5 group-hover:w-full bg-yellow transition-all duration-300 transform"></span>
+                    </Link>
+                ))}
             </div>
         </div>
-    )
+    );
 }
