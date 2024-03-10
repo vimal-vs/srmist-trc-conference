@@ -9,7 +9,7 @@ import { useState } from 'react';
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["400"] });
 
-export default function page() {
+export default function Page() {
     const [value, setValue] = useState(0);
 
     const handleChange = (event, newValue) => {
