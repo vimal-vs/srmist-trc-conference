@@ -4,6 +4,7 @@ import contact from "../../assets/icons/contact.svg";
 import mail from "../../assets/icons/mail.svg";
 import phone from "../../assets/icons/phone.svg";
 import location from "../../assets/icons/location-contact.svg";
+import Link from "next/link";
 
 export default function page() {
     return (
@@ -13,8 +14,8 @@ export default function page() {
                     <h1 className="text-xl md:text-3xl pt-4">Contact Information</h1>
                     <div className="space-y-6">
                         <p className="flex gap-4 items-center"><Image src={contact} alt="" /> Dr. S. Kanaga Suba Raja</p>
-                        <p className="flex gap-4 items-center"><Image src={phone} alt="" /> +919486684400</p>
-                        <p className="flex gap-4 items-center"><Image src={mail} alt="" />hod.cse@ist.srmtrichy.edu.in</p>
+                        <Link href={"tel:+919486684400"} className="flex gap-4 items-center"><Image src={phone} alt="" /> +919486684400</Link>
+                        <Link href={"mailto:hod.cse@ist.srmtrichy.edu.in"} className="flex gap-4 items-center"><Image src={mail} alt="" />hod.cse@ist.srmtrichy.edu.in</Link>
                         <div className="flex gap-4">
                             <Image src={location} alt="" />
                             <div>
