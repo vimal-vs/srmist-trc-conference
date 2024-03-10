@@ -1,6 +1,7 @@
 import AboutConference from "@/components/home/AboutConference";
 import Banner from "@/components/home/Banner";
 import CallForPapers from "@/components/home/CallForPapers";
+import EventDates from "@/components/home/EventDates";
 import FeeDetails from "@/components/home/FeeDetails";
 import MeetSpeakers from "@/components/home/MeetSpeakers";
 import OrangizedCard from "@/components/home/OrangizedCard";
@@ -13,6 +14,7 @@ export default function Home() {
       <OrangizedCard />
       <AboutConference />
       <CallForPapers />
+      <EventDates />
       <FeeDetails />
       <VenueLocation />
       <MeetSpeakers />
