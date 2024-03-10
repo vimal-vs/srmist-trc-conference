@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import landingBg from "../../assets/home/landing-bg.png";
 import calendar from "../../assets/icons/calendar.svg";
@@ -5,8 +7,11 @@ import location from "../../assets/icons/location.svg";
 import arrowRight from "../../assets/icons/arrow-right.svg";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { useRouter } from 'next/navigation';
 
 export default function Banner() {
+    const router = useRouter();
+
     return (
         <>
             <div className="relative w-full min-h-[50vh] md:min-h-[60vh]">
@@ -40,7 +45,7 @@ export default function Banner() {
                     </div>
                     {/* register */}
                     <div className="z-10 mt-4 md:mt-8">
-                        <Button variant={"outline"} className="bg-pink-600 text-white border-0 text-lg px-6 py-6 hover:bg-pink-700 hover:text-white flex justify-center items-center gap-2">
+                        <Button variant={"outline"} onClick={() => router.push("/registration")} className="bg-pink-600 text-white border-0 text-lg px-6 py-6 hover:bg-pink-700 hover:text-white flex justify-center items-center gap-2">
                             Register
                             <Image src={arrowRight} alt="arrow-right" className="h-5 w-5" />
                         </Button>
