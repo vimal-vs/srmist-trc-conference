@@ -8,19 +8,19 @@ export default function Footer() {
                 <div>
                     <p className='py-3 border-l-4 border-yellow pl-5 uppercase md:text-lg'>About</p>
                     <div className='flex flex-col gap-3 py-5 pt-7 text-sm md:text-base'>
-                        <Link href={"/"} className='flex gap-2'><ArrowRight /> About Conference</Link>
-                        <Link href={"/"} className='flex gap-2'><ArrowRight /> Important Dates</Link>
-                        <Link href={"/program"} className='flex gap-2'><ArrowRight /> Organizers</Link>
-                        <Link href={"/program"} className='flex gap-2'><ArrowRight /> Committee</Link>
+                        <Link href={"/#about"} className='flex gap-2'><ArrowRight /> About Conference</Link>
+                        <Link href={"/#dates"} className='flex gap-2'><ArrowRight /> Important Dates</Link>
+                        <Link href={"/program#organizers"} className='flex gap-2'><ArrowRight /> Organizers</Link>
+                        <Link href={"/program#comittee"} className='flex gap-2'><ArrowRight /> Committee</Link>
                     </div>
                 </div>
                 <div>
                     <p className='py-3 border-l-4 border-yellow pl-5 uppercase md:text-lg'>Quick Links</p>
                     <div className='flex flex-col gap-3 py-5 pt-7 text-sm md:text-base'>
-                        <Link href={"/program"} className='flex gap-2'><ArrowRight /> Cluster/Symposium</Link>
-                        <Link href={"/"} className='flex gap-2'><ArrowRight /> Registration Fees</Link>
+                        <Link href={"/#callforpapers"} className='flex gap-2'><ArrowRight /> Call for Papers</Link>
+                        <Link href={"/#registration"} className='flex gap-2'><ArrowRight /> Registration Fees</Link>
                         <Link href={"/registration"} className='flex gap-2'><ArrowRight /> Online Registration</Link>
-                        <Link href={"/program"} className='flex gap-2'><ArrowRight /> Plenary/Keynote/Invited Speakers</Link>
+                        <Link href={"/program#keynote"} className='flex gap-2'><ArrowRight /> Plenary/Keynote/Invited Speakers</Link>
                     </div>
                 </div>
             </div>
