@@ -51,6 +51,10 @@ export default function Header() {
             link: "/advisory-board",
         },
         {
+            name: "Plan Travel",
+            link: "/plan-travel",
+        },
+        {
             name: "Reach Us",
             link: "/reach-us",
         },
