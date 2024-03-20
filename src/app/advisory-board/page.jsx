@@ -213,8 +213,8 @@ export default function Page() {
                     <hr className='border-t-2 md:border-t-[7px] border-white w-1/3 mt-2 md:mt-5' />
                 </div>
             </div>
-            <div className='md:py-12 pb-8 pt-8 space-y-12 px-6 md:px-20'>
-                <div className='space-y-6'>
+            <div className='md:py-12 pb-8 pt-8 space-y-12 px-1 md:px-20'>
+                <div className='space-y-6 px-6'>
                     <p className={cn("leading-loose", poppins.className)}>
                         Back in 2003, SRM set up an International Advisory Board (IAB) consisting of 31 Distinguished Deans, Directors and professors from top universities across the world. SRM&apos;s IAB is the first across the Indian University system. IAB works towards helping SRMIST set Global Standards and Internationalize through bringing globally acclaimed curriculum, research and teaching methodology to its students and faculty members.</p>
                     <p className={cn("leading-loose", poppins.className)}>
@@ -232,16 +232,16 @@ export default function Page() {
                         <div className="-my-8 overflow-x-auto sm:-mx-6 lg:-mx-8">
                             <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
                                 <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
-                                    <table className="min-w-full divide-y divide-gray-200">
-                                        <thead className="bg-gray-50">
+                                    <table className="min-w-full divide-y divide-gray-200 text-sm md:text-base">
+                                        <thead className="bg-blue-900 text-white">
                                             <tr>
-                                                <th scope="col" className="px-6 py-3 text-left text-sm font-medium text-gray-500 uppercase tracking-wider">
+                                                <th scope="col" className="px-6 py-3 text-left font-medium uppercase tracking-wider">
                                                     Name
                                                 </th>
-                                                <th scope="col" className="px-6 py-3 text-left text-sm font-medium text-gray-500 uppercase tracking-wider">
+                                                <th scope="col" className="px-6 py-3 text-left font-medium uppercase tracking-wider">
                                                     University
                                                 </th>
-                                                <th scope="col" className="px-6 py-3 text-left text-sm font-medium text-gray-500 uppercase tracking-wider">
+                                                <th scope="col" className="px-6 py-3 text-left font-medium uppercase tracking-wider">
                                                     Country
                                                 </th>
                                             </tr>
@@ -250,13 +250,13 @@ export default function Page() {
                                             {internationalBoard.map((doctor, index) => (
                                                 <tr key={index}>
                                                     <td className="px-6 py-4 whitespace-nowrap">
-                                                        <div className="text-sm font-medium text-gray-900">{doctor.name}</div>
+                                                        <div className="font-medium text-gray-900">{doctor.name}</div>
                                                     </td>
                                                     <td className="px-6 py-4 whitespace-nowrap">
-                                                        <div className="text-sm text-gray-900">{doctor.university}</div>
+                                                        <div className="text-gray-900">{doctor.university}</div>
                                                     </td>
                                                     <td className="px-6 py-4 whitespace-nowrap">
-                                                        <div className="text-sm text-gray-900">{doctor.country}</div>
+                                                        <div className="text-gray-900">{doctor.country}</div>
                                                     </td>
                                                 </tr>
                                             ))}
@@ -272,16 +272,16 @@ export default function Page() {
                         <div className="-my-8 overflow-x-auto sm:-mx-6 lg:-mx-8">
                             <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
                                 <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
-                                    <table className="min-w-full divide-y divide-gray-200">
-                                        <thead className="bg-gray-50">
+                                    <table className="min-w-full divide-y divide-gray-200 text-sm md:text-base">
+                                        <thead className="bg-blue-900 text-white">
                                             <tr>
-                                                <th scope="col" className="px-6 py-3 text-left text-sm font-medium text-gray-500 uppercase tracking-wider">
+                                                <th scope="col" className="px-6 py-3 text-left font-medium uppercase tracking-wider">
                                                     Name
                                                 </th>
-                                                <th scope="col" className="px-6 py-3 text-left text-sm font-medium text-gray-500 uppercase tracking-wider">
+                                                <th scope="col" className="px-6 py-3 text-left font-medium uppercase tracking-wider">
                                                     University
                                                 </th>
-                                                <th scope="col" className="px-6 py-3 text-left text-sm font-medium text-gray-500 uppercase tracking-wider">
+                                                <th scope="col" className="px-6 py-3 text-left font-medium uppercase tracking-wider">
                                                     Country
                                                 </th>
                                             </tr>
@@ -290,13 +290,13 @@ export default function Page() {
                                             {nationalBoard.map((doctor, index) => (
                                                 <tr key={index}>
                                                     <td className="px-6 py-4 whitespace-nowrap">
-                                                        <div className="text-sm font-medium text-gray-900">{doctor.name}</div>
+                                                        <div className="font-medium text-gray-900">{doctor.name}</div>
                                                     </td>
                                                     <td className="px-6 py-4 whitespace-nowrap">
-                                                        <div className="text-sm text-gray-900">{doctor.university}</div>
+                                                        <div className="text-gray-900">{doctor.university}</div>
                                                     </td>
                                                     <td className="px-6 py-4 whitespace-nowrap">
-                                                        <div className="text-sm text-gray-900">{doctor.location}</div>
+                                                        <div className="text-gray-900">{doctor.location}</div>
                                                     </td>
                                                 </tr>
                                             ))}
