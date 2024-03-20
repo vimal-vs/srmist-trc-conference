@@ -13,9 +13,9 @@ export default function page() {
                             <li className="flex gap-2 md:items-center"><Image src={tick} alt='-' className='size-5' />For each accepted paper, at least one of the authors must register for the conference.</li>
                             <li className="flex gap-2 md:items-center"><Image src={tick} alt='-' className='size-5' />One registration in the Student category allows one paper presentation/publication.</li>
                             <li className="flex gap-2 md:items-center"><Image src={tick} alt='-' className='size-5' />One registration in the Faculty category allows two paper presentations/publications (provided that both papers have been accepted upon peer review).</li>
-                            <li className="flex gap-2 md:items-center"><Image src={tick} alt='-' className='size-5' />Registration in the Author's Registration Category is mandatory for the presentation of the paper in the conference.</li>
+                            <li className="flex gap-2 md:items-center"><Image src={tick} alt='-' className='size-5' />Registration in the Author&apos;s Registration Category is mandatory for the presentation of the paper in the conference.</li>
                             <li className="flex gap-2 md:items-center"><Image src={tick} alt='-' className='size-5' />Inclusion of the paper in the conference proceedings.</li>
-                            <li className="flex gap-2 md:items-center"><Image src={tick} alt='-' className='size-5' />If one of the authors of the paper has registered in the author's registration category, then all other authors of the paper may register under the co-authors' registration category if they wish to attend the conference.</li>
+                            <li className="flex gap-2 md:items-center"><Image src={tick} alt='-' className='size-5' />If one of the authors of the paper has registered in the author&apos;s registration category, then all other authors of the paper may register under the co-authors&apos; registration category if they wish to attend the conference.</li>
                         </ul>
                     </div>
                     <div className="flex flex-col justify-center w-[90%] overflow-x-auto md:overflow-auto md:max-w-[70%]">
