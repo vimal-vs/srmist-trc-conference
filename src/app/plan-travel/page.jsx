@@ -49,7 +49,7 @@ export default function page() {
                 </section>
                 <section className="mb-8">
                     <h2 className="text-2xl font-bold mb-4 flex items-center gap-3"><FiBookOpen className="text-2xl" />Cultural Heritage</h2>
-                    <p className="mb-4"><span className="font-medium">Trichy</span> is a vibrant tapestry of religious diversity and cultural vibrancy. Temples, mosques, and churches coexist harmoniously, reflecting the city&apos;s multicultural ethos. Festivals like Pongal, Diwali, and Eid are celebrated with great fervor, with colorful processions, traditional performances, and elaborate rituals that showcase the city's rich cultural heritage. Traditional arts and crafts, including bronze sculptures and silk sarees, are testament to the skill and creativity of local artisans.</p>
+                    <p className="mb-4"><span className="font-medium">Trichy</span> is a vibrant tapestry of religious diversity and cultural vibrancy. Temples, mosques, and churches coexist harmoniously, reflecting the city&apos;s multicultural ethos. Festivals like Pongal, Diwali, and Eid are celebrated with great fervor, with colorful processions, traditional performances, and elaborate rituals that showcase the city&apos;s rich cultural heritage. Traditional arts and crafts, including bronze sculptures and silk sarees, are testament to the skill and creativity of local artisans.</p>
                 </section>
                 <section className="mb-8">
                     <h2 className="text-2xl font-bold mb-4 flex items-center gap-3"><FiStar className="text-2xl" />Modern Development</h2>
