@@ -1,4 +1,3 @@
-import React from 'react'
 import one from "../../assets/program/1.png";
 import two from "../../assets/program/2.png";
 import three from "../../assets/program/3.png";
@@ -10,6 +9,9 @@ import eight from "../../assets/program/8.png";
 import Image from 'next/image';
 
 export default function page() {
+
+    const tableCellStyle = "px-6 py-4 whitespace-nowrap font-semibold";
+    const tableHeaderStyle = "px-6 py-3 text-left font-semibold text-neutral-200 text-lg uppercase tracking-wider border-b border-[#eeeeee2f]";
 
     const keyNoteSpeakers = [
         {
@@ -72,112 +74,50 @@ export default function page() {
         }
     ];
 
-    const facultyList = [
-        {
-            name: "Dr.R.Jagadeesh Kannan",
-            qualification: "B.E., M.E.,Ph.D",
-            designation: "Professor & Dean (Engg &Tech)"
-        },
-        {
-            name: "Dr.R.Krishnamoorthy",
-            qualification: "M.E.,Ph.D",
-            designation: "Professor & Dean (Academic& Research)"
-        },
-        {
-            name: "Dr.S.Kanaga Suba Raja",
-            qualification: "B.E., M.E.,Ph.D",
-            designation: "Professor & Head"
-        },
-        {
-            name: "Dr.R.Balaji Ganesh",
-            qualification: "B.E., M.E.,Ph.D, Post-Doc",
-            designation: "Assistant Professor & HoD AIML"
-        },
-        {
-            name: "Mr.J.Paul RajaSingh",
-            qualification: "B.E., M.E.,(Ph.D)",
-            designation: "Assistant Professor"
-        },
-        {
-            name: "Dr.M.Devipriya",
-            qualification: "B.E.,M.S(By Research ).,Ph.D",
-            designation: "Assistant Professor"
-        },
-        {
-            name: "Dr.R.Deebalakshmi",
-            qualification: "B.E., M.E.,Ph.D",
-            designation: "Assistant Professor & HoDCyber Security"
-        },
-        {
-            name: "Dr.K.R.Saranya",
-            qualification: "B.E., M.E.,Ph.D.",
-            designation: "Assistant Professor"
-        },
-        {
-            name: "Dr.S. Sivakumar",
-            qualification: "B.E., M.E.,Ph.D",
-            designation: "Assistant Professor"
-        },
-        {
-            name: "Dr.L.Josephine Usha",
-            qualification: "B.E., M.E.,Ph.D",
-            designation: "Assistant Professor"
-        },
-        {
-            name: "Mrs.R.Sharanya",
-            qualification: "B.E., M.E.,(Ph.D)",
-            designation: "Assistant Professor"
-        },
-        {
-            name: "Dr. V.Senthil Kumar",
-            qualification: "B.E., M.E.,Ph.D",
-            designation: "Assistant Professor"
-        },
-        {
-            name: "Dr.P.Shanmuga Sundari",
-            qualification: "B.Sc.,M.C.A.,M.E., Ph.D",
-            designation: "Assistant Professor"
-        },
-        {
-            name: "Dr.S.Anbukkarasi",
-            qualification: "B. tech.,M.E.,MBA, Ph.D",
-            designation: "Assistant Professor"
-        },
-        {
-            name: "Dr.D. Chitradevi",
-            qualification: "M.E.,Ph.D",
-            designation: "Assistant Professor"
-        },
-        {
-            name: "Dr.K.Jayanthi",
-            qualification: "B. Tech., M.Tech.,Ph.D",
-            designation: "Assistant Professor"
-        },
-        {
-            name: "Dr.N.Saranya",
-            qualification: "B.E., M.E.,Ph.D",
-            designation: "Assistant Professor"
-        },
-        {
-            name: "Dr.S. Shanmuga Priya",
-            qualification: "B.tech.,M.E.,MBA, Ph.D",
-            designation: "Assistant Professor"
-        },
-        {
-            name: "Ms. T.Siron Anita Susan",
-            qualification: "B.Tech., M.Tech.,Ph.D",
-            designation: "Assistant Professor"
-        },
-        {
-            name: "Dr.R. Sheeba",
-            qualification: "B.E., M.E.,Ph.D",
-            designation: "Assistant Professor"
-        },
-        {
-            name: "Dr.K.Nithya",
-            qualification: "B.Tech., M.Tech.,Ph.D",
-            designation: "Assistant Professor"
-        }
+    const vicePatrons = [
+        { name: "Dr. T. R. Paarivendhar", title: "Founder", institution: "SRM Group of Educational Institutions" },
+        { name: "Dr. R. Shivakumar", title: "Chairman", institution: "SRM Group of Educational Institutions (Ramapuram & Trichy Campus)" },
+        { name: "Mr. S. Niranjan", title: "Co-Chairman", institution: "SRM Group of Educational Institutions (Ramapuram & Trichy Campus)" }
+    ];
+
+    const chiefPatrons = [
+        { name: "Dr. N. Sethuraman", title: "Chief Director", institution: "SRM Group of Educational Institutions, Ramapuram Campus" },
+        { name: "Dr. N. Malmurugan", title: "Director", institution: "SRM Group of Educational Institutions, Tiruchirappalli Campus" }
+    ];
+
+    const patrons = [
+        { name: "Dr. R. Jagadeesh Kannan", title: "Dean", institution: "Faculty of Engineering and Technology, SRM Institute of Science and Technology, Tiruchirappalli Campus" }
+    ];
+
+    const conferenceChair = [
+        { name: "Dr. S. Kanaga Suba Raja", title: "Professor and Head", department: "Department of Computer Science and Engineering, SRM Institute of Science and Technology, Tiruchirappalli Campus" }
+    ];
+
+    const technicalChair = [
+        { name: "Dr.R.Balaji Ganesh", qualification: "B.E., M.E., Ph.D, Post-Doc", designation: "Assistant Professor & HoD AIML" },
+        { name: "Mr.J.Paul RajaSingh", qualification: "B.E., M.E.,(Ph.D)", designation: "Assistant Professor" },
+        { name: "Dr.M.Devipriya", qualification: "B.E.,M.S(By Research ).,Ph.D", designation: "Assistant Professor" },
+        { name: "Dr.R.Deebalakshmi", qualification: "B.E., M.E., Ph.D", designation: "Assistant Professor & HoD Cyber Security" },
+        { name: "Dr.K.R.Saranya", qualification: "B.E., M.E.,Ph.D.", designation: "Assistant Professor" },
+        { name: "Dr.S. Sivakumar", qualification: "B.E., M.E.,Ph.D", designation: "Assistant Professor" },
+        { name: "Dr.L.Josephine Usha", qualification: "B.E., M.E.,Ph.D", designation: "Assistant Professor" }
+    ];
+
+    const conferenceTreasurers = [
+        { name: "Mrs.R.Sharanya", qualification: "B.E., M.E.,(Ph.D)", designation: "Assistant Professor" },
+        { name: "Dr. V.Senthil Kumar", qualification: "B.E., M.E., Ph.D", designation: "Assistant Professor" },
+        { name: "Dr.P.Shanmuga Sundari", qualification: "B.Sc.,M.C.A.,M.E., Ph.D", designation: "Assistant Professor" },
+        { name: "Dr.S.Anbukkarasi", qualification: "B. tech.,M.E.,MBA, Ph.D", designation: "Assistant Professor" },
+        { name: "Dr.D. Chitradevi", qualification: "M.E.,Ph.D", designation: "Assistant Professor" },
+        { name: "Dr.K.Jayanthi", qualification: "B. Tech., M.Tech.,Ph.D", designation: "Assistant Professor" },
+        { name: "Dr.N.Saranya", qualification: "B.E., M.E.,Ph.D", designation: "Assistant Professor" }
+    ];
+
+    const committeeMembers = [
+        { name: "Dr.S. Shanmuga Priya", qualification: "B.tech.,M.E.,MBA, Ph.D", designation: "Assistant Professor" },
+        { name: "Ms. T.Siron Anita Susan", qualification: "B.Tech., M.Tech.,Ph.D", designation: "Assistant Professor" },
+        { name: "Dr.R. Sheeba", qualification: "B.E., M.E., Ph.D", designation: "Assistant Professor" },
+        { name: "Dr.K.Nithya", qualification: "B.Tech., M.Tech.,Ph.D", designation: "Assistant Professor" }
     ];
 
     const studentList = [
@@ -205,7 +145,7 @@ export default function page() {
     ];
 
     return (
-        <div className="w-full mx-auto py-10 bg-gradient-to-r from-[#E29E03] to-[#214B9C]">
+        <div className="w-full mx-auto py-10 bg-gradient-to-r from-[#E29E03] to-[#214B9C] scroll-m-0" id="keynote">
             <div className='container flex flex-col justify-center text-white md:py-12 pb-12'>
                 <h1 className="text-2xl md:text-4xl font-bold mb-5 text-center">KEYNOTE SPEAKERS</h1>
                 <div className='flex flex-wrap justify-center items-center md:grid grid-cols-3 gap-y-10'>
@@ -225,29 +165,101 @@ export default function page() {
                     })}
                 </div>
             </div>
-            <div className='container text-white w-full overflow-x-auto mt-12'>
-                <h1 className="text-3xl font-bold mb-5 whitespace-nowrap text-center">Faculty Organizing committee</h1>
-                <table className="min-w-full overflow-x-auto border border-[#eeeeee2f]">
-                    <thead className="divide-y divide-[#eeeeee2f]">
-                        <tr>
-                            <th className="px-6 py-3 text-left font-semibold text-[#002160] text-xl uppercase tracking-wider border-b border-[#eeeeee2f]">Name</th>
-                            <th className="px-6 py-3 text-left font-semibold text-[#002160] text-xl uppercase tracking-wider border-b border-[#eeeeee2f]">Qualification</th>
-                            <th className="px-6 py-3 text-left font-semibold text-[#002160] text-xl uppercase tracking-wider border-b border-[#eeeeee2f]">Designation</th>
-                        </tr>
-                    </thead>
-                    <tbody className="divide-y divide-[#eeeeee2f]">
-                        {facultyList.map((faculty, index) => (
-                            <tr key={index}>
-                                <td className="px-6 py-4 whitespace-nowrap font-semibold">{faculty.name}</td>
-                                <td className="px-6 py-4 whitespace-nowrap font-semibold">{faculty.qualification}</td>
-                                <td className="px-6 py-4 whitespace-nowrap font-semibold">{faculty.designation}</td>
-                            </tr>
+
+            <div className="container text-white w-full overflow-x-auto pt-12 scroll-m-0" id="comittee">
+                <h1 className="text-2xl md:text-4xl font-bold mb-5 text-center uppercase">Organising Committee</h1>
+                <div className="space-y-5">
+                    <h2 className="text-xl font-bold mb-3">Vice Patron:</h2>
+                    <ul className="list-disc pl-5 mb-5">
+                        {vicePatrons.map((person, index) => (
+                            <li key={index}>{person.name}, {person.title}, {person.institution}</li>
                         ))}
-                    </tbody>
-                </table>
+                    </ul>
+
+                    <h2 className="text-xl font-bold mb-3">Chief Patron:</h2>
+                    <ul className="list-disc pl-5 mb-5">
+                        {chiefPatrons.map((person, index) => (
+                            <li key={index}>{person.name}, {person.title}, {person.institution}</li>
+                        ))}
+                    </ul>
+
+                    <h2 className="text-xl font-bold mb-3">Patron:</h2>
+                    <ul className="list-disc pl-5 mb-5">
+                        {patrons.map((person, index) => (
+                            <li key={index}>{person.name}, {person.title}, {person.institution}</li>
+                        ))}
+                    </ul>
+
+                    <h2 className="text-xl font-bold mb-3">Conference Chair:</h2>
+                    <ul className="list-disc pl-5 mb-5">
+                        {conferenceChair.map((person, index) => (
+                            <li key={index}>{person.name}, {person.title}, {person.department}</li>
+                        ))}
+                    </ul>
+
+                    <h2 className="text-xl font-bold mb-3">Technical Chair:</h2>
+                    <table className="min-w-full overflow-x-auto border border-[#eeeeee2f] mb-5">
+                        <thead className="divide-y divide-[#eeeeee2f]">
+                            <tr>
+                                <th className={tableHeaderStyle}>Name</th>
+                                <th className={tableHeaderStyle}>Qualification</th>
+                                <th className={tableHeaderStyle}>Designation</th>
+                            </tr>
+                        </thead>
+                        <tbody className="divide-y divide-[#eeeeee2f]">
+                            {technicalChair.map((person, index) => (
+                                <tr key={index}>
+                                    <td className={tableCellStyle}>{person.name}</td>
+                                    <td className={tableCellStyle}>{person.qualification}</td>
+                                    <td className={tableCellStyle}>{person.designation}</td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+
+                    <h2 className="text-xl font-bold mb-3">Conference Treasurers:</h2>
+                    <table className="min-w-full overflow-x-auto border border-[#eeeeee2f] mb-5">
+                        <thead className="divide-y divide-[#eeeeee2f]">
+                            <tr>
+                                <th className={tableHeaderStyle}>Name</th>
+                                <th className={tableHeaderStyle}>Qualification</th>
+                                <th className={tableHeaderStyle}>Designation</th>
+                            </tr>
+                        </thead>
+                        <tbody className="divide-y divide-[#eeeeee2f]">
+                            {conferenceTreasurers.map((person, index) => (
+                                <tr key={index}>
+                                    <td className={tableCellStyle}>{person.name}</td>
+                                    <td className={tableCellStyle}>{person.qualification}</td>
+                                    <td className={tableCellStyle}>{person.designation}</td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+
+                    <h2 className="text-xl font-bold mb-3">Committee Members:</h2>
+                    <table className="min-w-full overflow-x-auto border border-[#eeeeee2f] mb-5">
+                        <thead className="divide-y divide-[#eeeeee2f]">
+                            <tr>
+                                <th className={tableHeaderStyle}>Name</th>
+                                <th className={tableHeaderStyle}>Qualification</th>
+                                <th className={tableHeaderStyle}>Designation</th>
+                            </tr>
+                        </thead>
+                        <tbody className="divide-y divide-[#eeeeee2f]">
+                            {committeeMembers.map((person, index) => (
+                                <tr key={index}>
+                                    <td className={tableCellStyle}>{person.name}</td>
+                                    <td className={tableCellStyle}>{person.qualification}</td>
+                                    <td className={tableCellStyle}>{person.designation}</td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+                </div>
             </div>
-            <div className='container text-white w-full overflow-x-auto py-12'>
-                <h1 className="text-lg md:text-3xl font-bold mb-5 text-center">Organising Committee (Students)</h1>
+            <div className='container text-white w-full overflow-x-auto py-12 scroll-m-0' id="organizers">
+                <h1 className="text-2xl md:text-3xl font-bold mb-5 text-center uppercase">Organising Committee (Students)</h1>
                 <div className="flex flex-wrap justify-center">
                     {studentList?.map((student, index) => {
                         return (

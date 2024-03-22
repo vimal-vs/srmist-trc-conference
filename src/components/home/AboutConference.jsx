@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function AboutConference() {
     return (
-        <div className="flex flex-col justify-center items-center w-full my-8">
+        <div className="flex flex-col justify-center items-center w-full my-8 scroll-m-20" id="about">
             <h1 className="text-2xl md:text-3xl font-semibold text-blue-900">ABOUT THE <span className="text-yellow">CONFERENCE</span></h1>
             <div className="flex flex-col md:flex-row justify-around w-full pt-5 md:pt-9">
                 <ul className="flex flex-col justify-around gap-3 md:gap-3 md:w-1/3 px-8 text-sm md:text-base text-justify md:px-0 md:text-justify list-disc">

@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import landingBg from "../../assets/about/landing-bg.jpg";
+import tick from "../../assets/icons/tick.svg";
 import { Inter, Poppins } from 'next/font/google';
 import { cn } from '@/lib/utils';
 
@@ -23,11 +24,11 @@ export default function page() {
                 </div>
                 <div>
                     <h3 className={cn('text-3xl  font-semibold pb-4', font.className)}>Vision</h3>
-                    <p className={cn("", poppins.className)}>The department&apos;s primary goal is to provide quality education in Computer Science and Engineering and produce highly competent engineers who can serve the society on a global level.</p>
+                    <p className={cn("flex gap-3", poppins.className)}><Image src={tick} alt='-' className='size-7' />The department&apos;s primary goal is to provide quality education in Computer Science and Engineering and produce highly competent engineers who can serve the society on a global level.</p>
                 </div>
                 <div>
                     <h3 className={cn('text-3xl  font-semibold pb-4', font.className)}>Mission</h3>
-                    <p className={cn("", poppins.className)}>Our goal is to provide industry-oriented training that prepares our graduates for real-world challenges, while also emphasizing the need for ethical conduct and social responsibility.</p>
+                    <p className={cn("flex gap-3", poppins.className)}><Image src={tick} alt='-' className='size-7' />Our goal is to provide industry-oriented training that prepares our graduates for real-world challenges, while also emphasizing the need for ethical conduct and social responsibility.</p>
                 </div>
             </div>
         </div>
