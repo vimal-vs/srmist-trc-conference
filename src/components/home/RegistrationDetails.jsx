@@ -32,14 +32,14 @@ export default function RegistrationDetails() {
                         <tbody>
                             <tr>
                                 <td className="border border-gray-300 py-2 px-4 text-left">Authors from India (INR)</td>
-                                <td className="border border-gray-300 py-2 px-4 text-left">₹10,500</td>
-                                <td className="border border-gray-300 py-2 px-4 text-left">₹12,000</td>
-                                <td className="border border-gray-300 py-2 px-4 text-left">₹12,000</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">₹13,000</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">₹14,000</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">₹15,000</td>
                                 <td className="border border-gray-300 py-2 px-4 text-left">₹2,000</td>
                             </tr>
                             <tr>
                                 <td className="border border-gray-300 py-2 px-4 text-left">Authors from outside India (USD)</td>
-                                <td className="border border-gray-300 py-2 px-4 text-left">$150</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">$200</td>
                                 <td className="border border-gray-300 py-2 px-4 text-left">$200</td>
                                 <td className="border border-gray-300 py-2 px-4 text-left">$200</td>
                                 <td className="border border-gray-300 py-2 px-4 text-left">$65</td>

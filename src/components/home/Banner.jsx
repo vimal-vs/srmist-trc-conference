@@ -24,8 +24,9 @@ export default function Banner() {
                     <div className="text-white z-10 text-center w-full">
                         <div className="md:space-y-4">
                             <h1 className="text-xl md:text-4xl xl:text-5xl font-bold">International Conference on</h1>
-                            <h1 className="text-xl md:text-4xl xl:text-5xl  font-bold">Generative AI Applications in</h1>
-                            <h1 className="text-xl md:text-4xl xl:text-5xl font-bold"> Science and Technology</h1>
+                            <h1 className="text-xl md:text-4xl xl:text-5xl  font-bold">Data Science Applications in</h1>
+                            <h1 className="text-xl md:text-4xl xl:text-5xl font-bold">Engineering and Sciences</h1>
+                            <h1 className="text-xl md:text-xl xl:text-3xl font-bold">(ICDSAES 2024)</h1>
                         </div>
                         <p className="mt-3 md:mt-6 flex justify-center items-center gap-3 font-medium text-sm w-full">
                             <span className="pr-4 h-[2px] w-1/5 md:1/4 bg-white"></span>
@@ -36,7 +37,7 @@ export default function Banner() {
                     <div className="text-white z-10 text-center pt-4 space-y-3 mt-2 md:space-y-6">
                         <p className="flex justify-center items-center gap-3 font-medium text-sm md:text-xl">
                             <Image src={calendar} alt="calendar" className="h-8 w-fit" />
-                            9TH & 10TH AUGUST 2024
+                            19TH & 20TH SEPTEMBER 2024
                         </p>
                         <Link href={""} className="flex justify-center items-center gap-3 font-medium text-sm md:text-xl">
                             <Image src={location} alt="calendar" className="h-8 w-fit" />

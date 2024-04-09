@@ -6,7 +6,7 @@ export default function AboutConference() {
             <h1 className="text-2xl md:text-3xl font-semibold text-blue-900">ABOUT THE <span className="text-yellow">CONFERENCE</span></h1>
             <div className="flex flex-col md:flex-row justify-around w-full pt-5 md:pt-9">
                 <ul className="flex flex-col justify-around gap-3 md:gap-3 md:w-1/3 px-8 text-sm md:text-base text-justify md:px-0 md:text-justify list-disc">
-                    <li>The conference will centre on the most recent advancements in the disciplines of physics, chemistry, mathematics, engineering and material sciences as well as applications of generative artificial intelligence.</li>
+                    <li>The conference will centre on the most recent advancements in the disciplines of physics, chemistry, mathematics, engineering, and material sciences as well as applications of data sciences.</li>
                     <li>It is one of the primary platforms for showcasing the outcomes of research initiatives in pertinent fields. It aims to bring together scholars from all over the world to share the most recent research findings. The conference&apos;s primary goal is to improve technology and collect significant developments in today&apos;s society, which addresses a wide range of topics related to human welfare and technology.</li>
                     <Link href={"/about"} className="bg-yellow w-fit rounded-full py-2 px-6 text-[#2E2C84] font-semibold hover:bg-yellow/80 mt-1">
                         Read More
@@ -21,4 +21,4 @@ export default function AboutConference() {
             </div>
         </div>
     )
-}
+};

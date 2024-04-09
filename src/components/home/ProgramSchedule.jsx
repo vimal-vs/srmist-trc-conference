@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function ProgramSchedule() {
     return (
         <div className="container mx-auto px-4 py-8">
@@ -7,7 +5,7 @@ export default function ProgramSchedule() {
             <div className="flex flex-col justify-center items-center">
                 <div className="flex flex-col justify-center gap-12 w-[90%] md:max-w-[70%] overflow-x-auto md:overflow-auto">
                     <div className='space-y-2'>
-                        <h2 className="text-xl md:text-2xl font-semibold text-blue-900 pb-4">Day 1 Conference (9th August 2024)</h2>
+                        <h2 className="text-xl md:text-2xl font-semibold text-blue-900 pb-4">Day 1 Conference (19th September 2024)</h2>
                         <table className="w-full border-collapse border border-gray-300">
                             <thead>
                                 <tr className="bg-gray-200">
@@ -49,14 +47,14 @@ export default function ProgramSchedule() {
                                     <td className="border border-gray-300 py-2 px-4">Technical Presentation III (Parallel 06 Sessions)</td>
                                 </tr>
                                 <tr>
-                                    <td className="border border-gray-300 py-2 px-4">First Day Technical Sessions Closed</td>
-                                    <td className="border border-gray-300 py-2 px-4">First Day Technical Sessions Closed</td>
+                                    <td className="border border-gray-300 py-2 px-4 font-medium">First Day Technical Sessions Closed</td>
+                                    <td className="border border-gray-300 py-2 px-4 font-medium">First Day Technical Sessions Closed</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
                     <div className='space-y-2'>
-                        <h2 className="text-xl md:text-2xl font-semibold text-blue-900 pb-4">Day 2 Conference (10th August 2024)</h2>
+                        <h2 className="text-xl md:text-2xl font-semibold text-blue-900 pb-4">Day 2 Conference (20th September 2024)</h2>
                         <table className="w-full border-collapse border border-gray-300">
                             <thead>
                                 <tr className="bg-gray-200">
@@ -106,8 +104,8 @@ export default function ProgramSchedule() {
                                     <td className="border border-gray-300 py-2 px-4">Valedictory Function</td>
                                 </tr>
                                 <tr>
-                                    <td className="border border-gray-300 py-2 px-4">Second Day Technical Session Closed</td>
-                                    <td className="border border-gray-300 py-2 px-4">Second Day Technical Session Closed</td>
+                                    <td className="border border-gray-300 py-2 px-4 font-medium">Second Day Technical Session Closed</td>
+                                    <td className="border border-gray-300 py-2 px-4 font-medium">Second Day Technical Session Closed</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -118,4 +116,4 @@ export default function ProgramSchedule() {
             <p className="text-base md:text-lg text-gray-700 text-center">Presentation Format: <span className=' font-semibold'>Power Point Presentation (PPT)</span></p>
         </div>
     );
-}
+};

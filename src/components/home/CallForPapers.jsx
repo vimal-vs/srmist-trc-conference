@@ -5,66 +5,66 @@ export default function CallForPapers() {
 
     const topics = [
         {
-            category: "Generative Artificial Intelligence in Physics",
+            category: "Data Science in Physics",
             subtopics: [
-                "Cosmological Parameter Estimation with AI",
-                "AI-enabled Nanophononics and Quantum Optics",
-                "AI-driven Nanoscale Imaging and Sensing Techniques",
-                "AI and Deep Learning Accelerated Electron Microscopy",
-                "AI-Assisted Gravitational Wave Astronomy",
-                "AI For High-Energy Physics Event Reconstruction"
+                "Statistical Mechanics and Thermodynamics",
+                "Machine learning in particle physics experiments",
+                "Data analysis in cosmological surveys",
+                "Computational astrophysics and cosmology",
+                "Quantum information and quantum computing",
+                "Quantum simulation and optimization"
             ]
         },
         {
-            category: "Generative Artificial Intelligence in Chemistry",
+            category: "Data Science in Chemistry",
             subtopics: [
-                "Chemical Agronomics using artificial intelligence",
-                "Predictive toxicology and environmental risk assessment",
-                "Artificial Intelligence enabled green chemistry and sustainable processes",
-                "Cheminformatics and molecular design using artificial intelligence and machine learning",
-                "Artificial intelligence-enabled high throughput screening platforms",
-                "Generative artificial intelligence-based applications in environmental sciences"
+                "Quantum chemistry calculations",
+                "Property prediction and materials design",
+                "High-throughput screening of materials",
+                "Computational catalysis and reaction mechanisms"
             ]
         },
         {
-            category: "Generative Artificial Intelligence in Material Sciences",
+            category: "Data Sciences in Mathematics",
             subtopics: [
-                "Artificial intelligence incorporated nanomaterials",
-                "Meta-materials using artificial intelligence",
-                "Topological insulation using artificial intelligence",
-                "Computational materials design using artificial intelligence",
-                "Cognitive materials engineering",
-                "Artificial intelligence enhancement of fossil fuel extraction"
+                "Quantum machine learning",
+                "Computational Mathematics",
+                "Numerical methods and algorithms",
+                "Optimization techniques",
+                "Computational fluid dynamics and simulations",
+                "Mathematical Modelling"
             ]
         },
         {
-            category: "Generative Artificial Intelligence in Mathematics",
+            category: "Data Sciences in Material Sciences",
             subtopics: [
-                "Probability and optimization theory",
-                "Mathematics for deep learning",
-                "Classification problems",
-                "Multivariate calculus",
-                "Statistical Mechanics"
+                "Material Informatics",
+                "Material property predictions",
+                "Molecular dynamic simulations",
+                "Phase diagram prediction and materials modelling"
             ]
         },
         {
-            category: "Generative Artificial Intelligence in Engineering",
+            category: "Data Sciences in Engineering",
             subtopics: [
-                "Real-time Analytics in navigation and mobility",
-                "Scalable Data Analytics",
-                "Computational Intelligence for Huge Data",
-                "Sentiment/Opinion analysis",
-                "Cyber Threat Frameworks and Intelligence",
-                "Forensic Analysis of Cyber Crimes",
-                "DevSecOps/Hybrid Cloud Security",
-                "Cryptography/Encryption standards",
-                "Explainable AI for Computer Vision",
-                "Multi-agent systems and games",
-                "Quantum Machine Learning",
-                "NLP and Large Language Models",
-                "Industry 5.0 and applications",
-                "Augmented Reality and Virtual Reality",
-                "Cyber-Physical Systems"
+                "Data Science in Industry 4.0 applications",
+                "Embedded systems through IoT and Data Sciences",
+                "Predictive Modelling and Forecasting",
+                "NLP in data science",
+                "Data Governance and Ethics",
+                "Healthcare Analytics",
+                "Fintech Analytics",
+                "Social Media Analytics",
+                "Spatial and Geospatial Analytics",
+                "Data Visualisation and Interpretability",
+                "Data science in Education",
+                "Secure Data Sharing and Collaboration",
+                "Cybersecurity Analytics",
+                "Quantum – Secure Data Science",
+                "Data Science in Cyber Physical Systems",
+                "Block Chain engineering",
+                "Data engineering and analysis",
+                "Augmented Reality and Virtual Reality in collaboration with data sciences"
             ]
         },
         {
