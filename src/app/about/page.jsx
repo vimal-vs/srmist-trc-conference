@@ -16,7 +16,7 @@ export default function page() {
             <div className='md:py-12 pb-8 pt-8 space-y-12 px-6 md:px-20'>
                 <div>
                     <h2 className={cn('text-2xl md:text-3xl text-blue-900 font-semibold pb-4 ', font.className)}>About Our University:</h2>
-                    <p className={cn("leading-loose", poppins.className)}>One of the best universities in India, SRM Institute of Science and Technology offers a wide range of undergraduate, graduate, and doctorate programmes in six faculties: engineering and technology, management, medicine and health sciences, science and humanities, law, and agricultural sciences. Its campuses are located in and around Chennai, Tiruchirappalli (in TN), Modinagar (in UP), and Sonepat (in Haryana). All of these locations are close to Delhi NCR, Amaravati (in AP), and Gangtok (in Sikkim).</p>
+                    <p className={cn("leading-loose", poppins.className)}>One of the best universities in India, SRM Institute of Science and Technology (with NIRF ranking 18 under the university category all over India along with NAAC A++ grade) offers a wide range of undergraduate, graduate, and doctorate programmes in six faculties: engineering and technology, management, medicine and health sciences, science and humanities, law, and agricultural sciences. Its campuses are located in and around Chennai, Tiruchirappalli (in TN), Modinagar (in UP), and Sonepat (in Haryana). All of these locations are close to Delhi NCR, Amaravati (in AP), and Gangtok (in Sikkim).</p>
                 </div>
                 <div>
                     <h2 className={cn('text-2xl md:text-3xl text-blue-900 font-semibold pb-4 ', font.className)}>About the Department of Computer Science and Engineering:</h2>
