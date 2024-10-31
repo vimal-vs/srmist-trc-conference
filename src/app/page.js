@@ -21,10 +21,10 @@ export default function Home() {
       {/* <FeeDetails /> */}
       <RegistrationDetails />
       <div className="container mx-auto px-4 py-8">
-        <div className="flex flex-col items-center justify-center w-fit pb-10 md:max-w-[70%]">
-            <h1 className="text-2xl md:text-3xl font-semibold text-blue-900 text-center w-fit pb-8 uppercase">DOWN<span className="text-yellow">LOADS</span></h1>
-            <div className="space-y-4 w-fit">
-                <div className="flex items-center space-x-2 w-fit">
+        <div className="flex flex-col items-center justify-center w-full pb-10">
+            <h1 className="text-2xl md:text-3xl font-semibold text-center text-blue-900 text-center w-fit pb-8 uppercase">DOWN<span className="text-yellow">LOADS</span></h1>
+            <div className="flex flex-col justify-center items-center space-y-4 w-full">
+                <div className="flex items-center space-x-2">
                     <span>For paper template -</span>
                     <a
                         href="https://docs.google.com/document/d/1A0wjz1Xv1Njg5vtHmXYoQYdYvGd8eDVm/edit?usp=sharing&ouid=106267889453596678336&rtpof=true&sd=true"
