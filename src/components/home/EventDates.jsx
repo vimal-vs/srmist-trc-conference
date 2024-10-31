@@ -19,8 +19,8 @@ export default function EventDates() {
             1
           </span>
           <p>
-            Abstract Submission Deadline:{" "}
-            <span className="font-semibold">3rd January 2025</span>
+            Full Paper Submission Deadline:{" "}
+            <span className="font-semibold">30th January</span>
           </p>
         </div>
         <div className="flex gap-3">
@@ -28,8 +28,8 @@ export default function EventDates() {
             2
           </span>
           <p>
-            Acceptance Notification:{" "}
-            <span className="font-semibold">21st January 2025</span>
+            Notification of Acceptance:{" "}
+            <span className="font-semibold">20th February</span>
           </p>
         </div>
         <div className="flex gap-3">
@@ -37,8 +37,8 @@ export default function EventDates() {
             3
           </span>
           <p>
-            Full Paper Submission Deadline:{" "}
-            <span className="font-semibold">5th March 2025</span>
+            Registration Ends:{" "}
+            <span className="font-semibold">15th March</span>
           </p>
         </div>
         <div className="flex gap-3">
@@ -47,7 +47,7 @@ export default function EventDates() {
           </span>
           <p>
             Conference Dates:{" "}
-            <span className="font-semibold">4th & 5th April 2025</span>
+            <span className="font-semibold">4th & 5th April</span>
           </p>
         </div>
       </div>
