@@ -51,12 +51,12 @@ export default function Home() {
                     </a>
                 </div>
                 <div className="flex items-center space-x-2">
-                    <span>For article preparation checklist (Do's & Don'ts) -</span>
+                    <span>For article preparation checklist (Do&apos;s & Don&apos;ts) -</span>
                     <a
                         href="https://drive.google.com/file/d/1Y_JW9jcmITdPSWbQkPvNNRKvoms5oOZH/view?usp=sharing"
                         className="px-4 py-2 bg-blue-600 text-white font-semibold rounded-full hover:bg-blue-700 transition"
                     >
-                        DO'S & DON'TS
+                        DO&apos;S & DON&apos;TS
                     </a>
                 </div>
             </div>
