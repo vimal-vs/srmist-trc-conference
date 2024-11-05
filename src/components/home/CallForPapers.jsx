@@ -125,7 +125,7 @@ export default function CallForPapers() {
                 <h2 className="text-blue-900 font-semibold text-lg md:px-0 pb-5 md:pb-2 w-fit">
                   {index + 1}. {topic.category}
                 </h2>
-                <ul className="md:px-0 font-medium space-y-2 max-w-[50%] md:max-w-full">
+                <ul className="md:px-0 font-medium space-y-2">
                   {topic.subtopics.map((subtopic, index) => (
                     <li
                       key={index}
