@@ -23,26 +23,55 @@ export default function RegistrationDetails() {
                         <thead>
                             <tr className="bg-gray-200">
                                 <th className="border border-gray-300 py-2 px-4 text-left">Category</th>
-                                <th className="border border-gray-300 py-2 px-4 text-left">Student / Research Scholar</th>
-                                <th className="border border-gray-300 py-2 px-4 text-left">Faculty / Academician</th>
-                                <th className="border border-gray-300 py-2 px-4 text-left">Industry Professional</th>
-                                <th className="border border-gray-300 py-2 px-4 text-left">Co-Author / Attendee</th>
+                                <th className="border border-gray-300 py-2 px-4 text-left">Early Bird</th>
+                                <th className="border border-gray-300 py-2 px-4 text-left">Late</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td className="border border-gray-300 py-2 px-4 text-left">Authors from India (INR)</td>
-                                <td className="border border-gray-300 py-2 px-4 text-left">₹10,500</td>
-                                <td className="border border-gray-300 py-2 px-4 text-left">₹12,000</td>
-                                <td className="border border-gray-300 py-2 px-4 text-left">₹12,000</td>
-                                <td className="border border-gray-300 py-2 px-4 text-left">₹2,000</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">Faculty Member (ACM/IEEE/FIP)</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">INR 9000</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">INR 9500</td>
                             </tr>
                             <tr>
-                                <td className="border border-gray-300 py-2 px-4 text-left">Authors from outside India (USD)</td>
-                                <td className="border border-gray-300 py-2 px-4 text-left">$150</td>
-                                <td className="border border-gray-300 py-2 px-4 text-left">$200</td>
-                                <td className="border border-gray-300 py-2 px-4 text-left">$200</td>
-                                <td className="border border-gray-300 py-2 px-4 text-left">$65</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">Faculty (ACM/IEEE/FIP) with International Co-author</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">INR 8500</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">INR 9000</td>
+                            </tr>
+                            <tr>
+                                <td className="border border-gray-300 py-2 px-4 text-left">Faculty International Author and Member (ACM/IEEE/FIP)</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">$140</td> {/* Early Bird updated from $130 */}
+                                <td className="border border-gray-300 py-2 px-4 text-left">$180</td> {/* Late updated from $170 */}
+                            </tr>
+                            <tr>
+                                <td className="border border-gray-300 py-2 px-4 text-left">Faculty Non-Member (ACM/IEEE/FIP)</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">INR 9500</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">INR 10000</td>
+                            </tr>
+                            <tr>
+                                <td className="border border-gray-300 py-2 px-4 text-left">Faculty Non-Member (ACM/IEEE/FIP) with International Co-author</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">INR 9000</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">INR 9500</td>
+                            </tr>
+                            <tr>
+                                <td className="border border-gray-300 py-2 px-4 text-left">International Author Non-Member (ACM/IEEE/FIP)</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">$170</td> {/* Early Bird updated from $160 */}
+                                <td className="border border-gray-300 py-2 px-4 text-left">$210</td> {/* Late updated from $200 */}
+                            </tr>
+                            <tr>
+                                <td className="border border-gray-300 py-2 px-4 text-left">Corporate/Industry Professional</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">INR 10500</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">INR 11000</td>
+                            </tr>
+                            <tr>
+                                <td className="border border-gray-300 py-2 px-4 text-left">PG / PhD Student</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">INR 9000</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">INR 9500</td>
+                            </tr>
+                            <tr>
+                                <td className="border border-gray-300 py-2 px-4 text-left">Attendee</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">INR 2000</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">INR 2500</td>
                             </tr>
                         </tbody>
                     </table>

@@ -20,6 +20,49 @@ export default function Home() {
       <ProgramSchedule />
       {/* <FeeDetails /> */}
       <RegistrationDetails />
+      <div className="container mx-auto px-4 py-8">
+        <div className="flex flex-col items-center justify-center w-full pb-10">
+            <h1 className="text-2xl md:text-3xl font-semibold text-center text-blue-900 text-center w-fit pb-8 uppercase">DOWN<span className="text-yellow">LOADS</span></h1>
+            <div className="flex flex-col justify-center items-center space-y-4 w-full">
+                <div className="flex items-center space-x-2">
+                    <span>For paper template -</span>
+                    <a
+                        href="https://docs.google.com/document/d/1A0wjz1Xv1Njg5vtHmXYoQYdYvGd8eDVm/edit?usp=sharing&ouid=106267889453596678336&rtpof=true&sd=true"
+                        className="px-4 py-2 bg-blue-900 text-sm md:text-lg text-white font-semibold rounded-full hover:bg-blue-700 transition"
+                    >
+                        MANUSCRIPT
+                    </a>
+                </div>
+                <div className="flex items-center space-x-2">
+                    <span>For copyright form -</span>
+                    <a
+                        href="https://drive.google.com/file/d/1SGQt_naxdvGq0BePN_Qc740W-1QvNIXu/view?usp=sharing"
+                        className="px-4 py-2 bg-blue-900 text-sm md:text-lg text-white font-semibold rounded-full hover:bg-blue-700 transition"
+                    >
+                        COPYRIGHT FORM
+                    </a>
+                </div>
+                <div className="flex items-center space-x-2">
+                    <span>For publication ethics -</span>
+                    <a
+                        href="https://conference.poornima.edu.in/downloads/Publication%20Ethics.docx.pdf"
+                        className="px-4 py-2 bg-blue-900 text-sm md:text-lg text-white font-semibold rounded-full hover:bg-blue-700 transition"
+                    >
+                        PUBLICATION ETHICS
+                    </a>
+                </div>
+                <div className="flex items-center space-x-2">
+                    <span>For article preparation checklist (Do&apos;s & Don&apos;ts) -</span>
+                    <a
+                        href="https://drive.google.com/file/d/1Y_JW9jcmITdPSWbQkPvNNRKvoms5oOZH/view?usp=sharing"
+                        className="px-4 py-2 bg-blue-900 text-sm md:text-lg text-white font-semibold rounded-full hover:bg-blue-700 transition"
+                    >
+                        DO&apos;S & DON&apos;TS
+                    </a>
+                </div>
+            </div>
+        </div>
+      </div>
       <VenueLocation />
       <MeetSpeakers />
     </div>
