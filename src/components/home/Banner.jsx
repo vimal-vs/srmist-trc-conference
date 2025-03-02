@@ -31,11 +31,11 @@ export default function Banner() {
                 International Conference on
               </h1>
               <h1 className="text-xl md:text-4xl xl:text-5xl  font-bold">
-                Emerging Innovations in
+                AI-Powered Multidisciplinary Solutions
               </h1>
               <h1 className="text-xl md:text-4xl xl:text-5xl font-bold">
                 {" "}
-                Science and Technology
+                for Sustainable Development (IC-AIMS 2026)
               </h1>
             </div>
             <p className="mt-3 md:mt-6 flex justify-center items-center gap-3 font-medium text-sm w-full">
@@ -47,7 +47,7 @@ export default function Banner() {
           <div className="text-white z-10 text-center pt-4 space-y-3 mt-2 md:space-y-6">
             <p className="flex justify-center items-center gap-3 font-medium text-sm md:text-xl">
               <Image src={calendar} alt="calendar" className="h-8 w-fit" />
-              4TH & 5TH APRIL 2025
+              6TH & 7TH MARCH 2026
             </p>
             <Link
               href={""}

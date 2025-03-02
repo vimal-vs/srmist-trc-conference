@@ -10,7 +10,7 @@ export default function ProgramSchedule() {
         <div className="flex flex-col justify-center gap-12 w-[90%] md:max-w-[70%] overflow-x-auto md:overflow-auto">
           <div className="space-y-2">
             <h2 className="text-xl md:text-2xl font-semibold text-blue-900 pb-4">
-              Day 1 Conference (4th April 2025)
+              Day 1 Conference (6th March 2026)
             </h2>
             <table className="w-full border-collapse border border-gray-300">
               <thead>
@@ -101,7 +101,7 @@ export default function ProgramSchedule() {
           </div>
           <div className="space-y-2">
             <h2 className="text-xl md:text-2xl font-semibold text-blue-900 pb-4">
-              Day 2 Conference (5th April 2025)
+              Day 2 Conference (7th March 2026)
             </h2>
             <table className="w-full border-collapse border border-gray-300">
               <thead>

@@ -16,38 +16,47 @@ export default function EventDates() {
       <div className="flex flex-col gap-6 px-5 py-6 md:px-0 md:py-0">
         <div className="flex gap-3">
           <span className="rounded-full h-fit bg-blue-900 py-1 px-3 text-white font-semibold">
-            1
+            📅
           </span>
           <p>
             Abstract Submission Deadline:{" "}
-            <span className="font-semibold">3rd January 2025</span>
+            <span className="font-semibold">30th July 2025</span>
           </p>
         </div>
         <div className="flex gap-3">
           <span className="rounded-full h-fit bg-blue-900 py-1 px-3 text-white font-semibold">
-            2
+            📅
           </span>
           <p>
-            Acceptance Notification:{" "}
-            <span className="font-semibold">21st January 2025</span>
+            Paper Submission Deadline:{" "}
+            <span className="font-semibold">15th September 2025</span>
           </p>
         </div>
         <div className="flex gap-3">
           <span className="rounded-full h-fit bg-blue-900 py-1 px-3 text-white font-semibold">
-            3
+            📅
           </span>
           <p>
-            Full Paper Submission Deadline:{" "}
-            <span className="font-semibold">5th March 2025</span>
+            Notification of Acceptance:{" "}
+            <span className="font-semibold">25th November 2025</span>
           </p>
         </div>
         <div className="flex gap-3">
           <span className="rounded-full h-fit bg-blue-900 py-1 px-3 text-white font-semibold">
-            4
+            📅
+          </span>
+          <p>
+            Final Paper Submission & Registration:{" "}
+            <span className="font-semibold">20th January 2026</span>
+          </p>
+        </div>
+        <div className="flex gap-3">
+          <span className="rounded-full h-fit bg-blue-900 py-1 px-3 text-white font-semibold">
+            📅
           </span>
           <p>
             Conference Dates:{" "}
-            <span className="font-semibold">4th & 5th April 2025</span>
+            <span className="font-semibold">6th & 7th March 2026</span>
           </p>
         </div>
       </div>

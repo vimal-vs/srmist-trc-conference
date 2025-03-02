@@ -99,46 +99,63 @@ export default function page() {
             Objective of the Conference
           </h3>
           <p className={cn("leading-loose", poppins.className)}>
-            The International Conference on Emerging Innovations in Science,
-            Technology, and Engineering (IC-EISTE 2024) seeks to unite academic
-            and industry leaders in science, mathematics, and data science to
-            discuss the latest advancements and applications of data science in
-            various scientific fields. The conference aims to address critical
-            issues, spotlight emerging trends, and cultivate a future-focused
-            vision for the design, deployment, and operation of data-driven
-            solutions across diverse sectors.
-          </p>
-          <p className={cn("leading-loose", poppins.className)}>
-            IC-EISTE 2024 aspires to be a collaborative hub where the science
-            and engineering communities converge to explore cutting-edge
-            developments in data science and its transformative applications in
-            fields such as physics, chemistry, biology, social sciences,
-            economics, and other applied sciences. This interdisciplinary
-            platform invites researchers, practitioners, and educators to
-            present and exchange insights on recent innovations, current trends,
-            and pressing challenges in data science. Participants will engage in
-            discussions on practical issues faced in the industry, along with
-            solutions successfully implemented to advance these fields.
-          </p>
-        </div>
-
-        {/* Conference Scope */}
-        <div>
-          <h3 className={cn("text-3xl font-semibold pb-4", font.className)}>
-            Conference Scope
-          </h3>
-          <p className={cn("leading-loose", poppins.className)}>
-            The IC-EISTE 2024 will focus on advancing multidisciplinary research
-            and applications in emerging technologies, addressing global
-            challenges in innovation, sustainability, and digital
-            transformation. Topics will include Artificial Intelligence, IoT,
-            Cybersecurity, Sustainable Energy, Biomedical Engineering, Quantum
-            Computing, and more. Researchers, practitioners, and experts from
-            academia and industry are encouraged to join and contribute to
-            discussions on the latest scientific advancements and engineering
-            innovations, particularly those impacting the Indian subcontinent
-            and beyond.
-          </p>
+            International Conference on AI-Powered Multidisciplinary Solutions
+            for Sustainable Development (IC-AIMS 2026) aims to serve as a
+            premier global platform for researchers, academicians, industry
+            experts, and policymakers to present and discuss cutting-edge
+            innovations in sustainable technologies. This conference fosters a
+            multidisciplinary approach by integrating advancements in computing,
+            energy, healthcare, infrastructure, and environmental sciences to
+            address global sustainability challenges.
+          </p>{" "}
+          <ul className={cn("list-disc pl-6 leading-loose", poppins.className)}>
+            <li>
+              To foster a global platform for knowledge exchange that brings
+              together experts from academia, industry, government, and
+              non-governmental organizations to explore how Artificial
+              Intelligence (AI) can accelerate progress toward the Sustainable
+              Development Goals (SDGs).
+            </li>
+            <li>
+              To promote interdisciplinary research and innovations by
+              encouraging collaboration across domains such as engineering,
+              healthcare, agriculture, climate science, energy management, urban
+              planning, and social sciences, with AI as the enabler for
+              sustainable solutions.
+            </li>
+            <li>
+              To showcase cutting-edge AI-driven technologies and their
+              applications in addressing global sustainability challenges,
+              including climate change, clean energy transition, food security,
+              healthcare access, and smart infrastructure development.
+            </li>
+            <li>
+              To bridge the gap between research, policy, and practice by
+              facilitating dialogue between researchers, technology developers,
+              policymakers, and practitioners, ensuring that AI solutions are
+              ethical, inclusive, and aligned with global sustainability
+              priorities.
+            </li>
+            <li>
+              To create a repository of best practices and real-world case
+              studies demonstrating the tangible impact of AI-powered
+              innovations in local, national, and global sustainability
+              initiatives, contributing to future research, policy formation,
+              and capacity building.
+            </li>
+            <li>
+              To inspire young researchers and innovators to focus on AI for
+              social good and technological solutions for sustainability,
+              fostering a new generation of researchers committed to
+              technology-driven sustainable development.
+            </li>
+            <li>
+              To emphasize responsible AI development by addressing issues such
+              as ethics, transparency, data governance, and digital equity,
+              ensuring that technological advancement contributes to inclusive
+              and sustainable global development.
+            </li>
+          </ul>
         </div>
       </div>
     </div>
