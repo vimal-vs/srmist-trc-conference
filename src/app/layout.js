@@ -6,9 +6,10 @@ import Footer from "@/layouts/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "International Conference on Emerging Innovations",
+  title:
+    "International Conference on AI-Powered Multidisciplinary Solutions for Sustainable Development (IC-AIMS 2026)",
   description:
-    "International Conference on Emerging Innovations in Science and Technology by SRM IST TRC.",
+    "International Conference on AI-Powered Multidisciplinary Solutions for Sustainable Development (IC-AIMS 2026) in Science and Technology by SRM IST TRC.",
 };
 
 export default function RootLayout({ children }) {
