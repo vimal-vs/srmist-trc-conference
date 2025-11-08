@@ -4,7 +4,7 @@ import right from "../../assets/icons/chevron-right.svg";
 export default function CallForPapers() {
 
     const topics = [
-        {
+              {
             category: "Quantum Computing in Agriculture",
             subtopics: [
                 "Quantum-optimized fertilizer formulations for soil health and crop yield",
@@ -96,7 +96,6 @@ export default function CallForPapers() {
             ]
         }
     ];
-
     return (
         <div className="flex flex-col justify-center items-center w-full my-8 bg-neutral-100 py-5 scroll-m-20" id="callforpapers">
             <h1 className="text-2xl md:text-3xl font-semibold text-blue-900">
