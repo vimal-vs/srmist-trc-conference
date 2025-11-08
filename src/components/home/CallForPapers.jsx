@@ -97,20 +97,25 @@ export default function CallForPapers() {
         }
     ];
 
-  
-
     return (
         <div className="flex flex-col justify-center items-center w-full my-8 bg-neutral-100 py-5 scroll-m-20" id="callforpapers">
-            <h1 className="text-2xl md:text-3xl font-semibold text-blue-900">CALL FOR <span className="text-yellow">PAPERS</span></h1>
-            <div className=" flex flex-col items-center w-fit mt-5 md:mt-9">
+            <h1 className="text-2xl md:text-3xl font-semibold text-blue-900">
+                CALL FOR <span className="text-yellow">PAPERS</span>
+            </h1>
+            <div className="flex flex-col items-center w-fit mt-5 md:mt-9">
                 <div className="px-10">
                     <div className="space-y-8">
                         {topics.map((topic, index) => (
                             <div key={topic.category} className="flex flex-col">
-                                <h2 className="text-blue-900 font-semibold text-lg md:px-0 pb-5 md:pb-2">{index + 1}. {topic.category}</h2>
+                                <h2 className="text-blue-900 font-semibold text-lg md:px-0 pb-5 md:pb-2">
+                                    {index + 1}. {topic.category}
+                                </h2>
                                 <ul className="md:px-0 font-medium space-y-2">
-                                    {topic.subtopics.map((subtopic, index) => (
-                                        <li key={index} className="md:ml-12 flex gap-1 items-center"><Image src={right} alt="-" className="size-5" />{subtopic}</li>
+                                    {topic.subtopics.map((subtopic, idx) => (
+                                        <li key={idx} className="md:ml-12 flex gap-1 items-center">
+                                            <Image src={right} alt="-" className="size-5" />
+                                            {subtopic}
+                                        </li>
                                     ))}
                                 </ul>
                             </div>
@@ -119,5 +124,5 @@ export default function CallForPapers() {
                 </div>
             </div>
         </div>
-    )
+    );
 }
